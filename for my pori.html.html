@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special webpage for my dearest Atia.">
+    <meta name="author" content="Shan ul Hasnat Jehan">
+    <title>For My Pori Atia ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ff4e50;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .heart {
+            font-size: 5rem;
+            color: red;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .special-button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .special-button:hover {
+            background-color: #e85043;
+        }
+        .hidden-message {
+            display: none;
+            font-size: 1.5rem;
+            color: #ff4e50;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>For My One and Only ❤️ Atia</h1>
+    <div class="heart">❤️</div>
+    <p>
+        Dear Atia, <br>
+        You are the most beautiful, caring, and amazing person I've ever met. <br>
+        Every moment with you feels like a dream, and I cherish it more than anything. <br>
+        I promise to always stand by your side, through every joy and every challenge. <br>
+        You are my inspiration, my happiness, and my everything. <br>
+    </p>
+    <p>
+        Just like a beautiful rain shower, you bring life and happiness to my world. <br>
+        I love you more than words can express! 🌸
+    </p>
+    <div class="button-container">
+        <button class="special-button" onclick="revealMessage()">Click Me, Pori!</button>
+    </div>
+    <div id="hiddenMessage" class="hidden-message">
+        "I love you to the moon and back, Atia! 🌙❤️" <br>
+        - Yours forever, <br>
+        3D
+    </div>
+    <script>
+        function revealMessage() {
+            document.getElementById('hiddenMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
